@@ -1,0 +1,19 @@
+# string silicing substring 2.py
+myString="ABCDE"
+mysubstring=""
+for i in range(0, 3):
+    mysubstring += myString[i]
+print("first three character: " + mysubstring)
+
+
+myname="Mujahed"
+mysubchar=""
+for i in range(0, 3):
+    mysubchar += myname[i]
+print("first three character of my name is: " + mysubchar )
+
+mystring1="Mohsin"
+mystring2=""
+for i in range(0, 2):
+    mystring2 += mystring1[i]
+print("first two character from name is: " + mystring2)
