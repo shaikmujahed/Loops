@@ -1,0 +1,6 @@
+mystring_f="ABCDE"
+mysubstring=""
+
+for char in mystring_f:
+   mysubstring+=char
+print("mysubstring: " + mysubstring)
