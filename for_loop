@@ -4,3 +4,48 @@ mysubstring=""
 for char in mystring_f:
    mysubstring+=char
 print("mysubstring: " + mysubstring)
+
+
+def lu_sev(list1):
+    count=0
+    for num in list1:
+        if num==7:
+            count+=1
+        else:
+            count==0
+
+        if count==3:
+            return True
+    return False
+print(lu_sev([1,2,7,5,8,7,7,7,2,3]))
+print(lu_sev([2,4,5,7,7,1,2,3,5,6,7]))
+
+def l1_s1(l_1):
+    x=0
+    for i in l_1:
+        if i==7:
+            x+=1
+        else:
+            x=0
+        if x==3:
+            return True
+    return False
+
+print(l1_s1([1,2,7,5,8,7,7,7,2,3]))
+print(l1_s1([2,4,5,7,7,1,2,3,5,6,7]))
+
+
+def lucky(seven):
+    a_list=map(str,seven)
+    a_list="".join(a_list)
+    return "777" in a_list
+
+print(lucky([4, 7, 8, 2, 7, 7, 7, 3, 4]))
+print(lucky([4, 7, 7, 2, 8, 3, 7, 4, 3]))
+
+def funk(junk):
+    x=map(str,junk)
+    x="".join(x)
+    return "222" in x
+print(funk([1,2,3,2,2,2,45]))
+print(funk([1,4,5,2,2,3,3,5]))
