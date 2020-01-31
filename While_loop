@@ -1,0 +1,29 @@
+
+mystring="ABCDEABCDEABCDEFGHIJFGHIJABCDEABCDEFGHIJ"
+findstring="CDE"
+
+
+currentlocation=mystring.find(findstring)
+
+while currentlocation >= 0:
+    print(findstring , " found at", currentlocation)
+    currentlocation=mystring.find(findstring,currentlocation +1)
+
+
+
+
+my_name="shaikmujahedulislamjamadarmujahedjdmujahedanna"
+find_name="muj"
+
+currentlocation=my_name.find(find_name)
+
+while currentlocation >=0:
+    print(find_name, "found at",currentlocation)
+    currentlocation=my_name.find(find_name,currentlocation + 1)
+
+
+
+# count method
+mystring="ABCDEFGHJIKLOJJABCDEKJKABCDE"
+findstring="CDE"
+print("count of " ,findstring,":",mystring.count(findstring))
